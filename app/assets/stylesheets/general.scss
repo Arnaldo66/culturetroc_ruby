@@ -1,0 +1,65 @@
+/*css personnalisé */
+#nav li a.active{
+	background-color:#f3f3f3;
+	border-bottom: 1px solid #ddd;
+	color: #666
+}
+
+ul.nav li a.general-active{
+	background:none repeat scroll 0 0 #b46e4c!important;
+}
+
+.hidden-element{
+	display:none;
+}
+/* mon compte */
+.btn-margin-bottom-15{
+	margin: 0 0 15px 0;
+}
+
+/*impose une taille pour les image*/
+img.img-thumbnail{
+	max-width:80px;
+	max-height:80px;
+}
+
+/*impose une taille pour les images du détail de livre*/
+img.img-front-livre-detail{
+	max-width:190px;
+	max-height:270px;
+}
+
+/* lien a style btn pour front */
+a.btn-front-success{
+	font-family:Arial,Helvetica,sans-serif;
+	padding:2px 10px 2px 10px;
+	font-size:12px;
+	background-color:#5cb85c!important;
+	border:1px solid #4cae4c!important;
+}
+
+a.btn-front-info{
+	font-family:Arial,Helvetica,sans-serif;
+	padding:2px 10px 2px 10px;
+	font-size:12px;
+	background-color:#5bc0de!important;
+	border:1px solid #46b8da!important;
+}
+
+/*padding dans les blocs décrivant scenariste et dessinateur */
+.item-details p.padding-auteurs{
+	padding: 0 5px 0 5px;
+}
+
+/*header lien recherhe avancée*/
+a.link-recherche-avancee{
+	color: #b46e4c!important;
+	padding-left:10px;
+	text-decoration:underline!important;
+}
+
+
+/*Surcharge la pagination */
+div.paging{
+	/*width:310px;*/
+}
