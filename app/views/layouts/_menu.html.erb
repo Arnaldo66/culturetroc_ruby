@@ -13,7 +13,11 @@
       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
          <ul class="nav navbar-nav">
          
-            <li><a class="general-active" href="#"><i class="icon-home"></i></a></li>
+            <li>
+               <%= link_to root_path, class: "general-active" do %>
+                   <i class="icon-home"></i>
+               <% end %>
+            </li>
 				
 		
             <li><a href="#">Livre</a></li>
@@ -36,7 +40,7 @@
    
           <li><a href="#">Artistes</a></li>
           <li><a href="#">Mon compte</a></li>
-          <li><a href="#">FAQ</a></li>
+          <li><%= link_to "FAQ", faq_path %></li>
           <li><a href="#">Contact</a></li>
          </ul>
       </nav>
